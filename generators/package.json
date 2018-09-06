@@ -1,0 +1,21 @@
+{
+  "name": "generator-order",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [ "yeoman-generator" ],
+  "author": "Artem Nechunaev <nechunaev@tutu.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "yeoman-generator": "^3.1.1"
+  },
+  "files": [
+    "rj",
+    "rjm",
+    "rl",
+    "rlt"
+  ]
+}

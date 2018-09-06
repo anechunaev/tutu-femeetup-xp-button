@@ -1,0 +1,25 @@
+{
+	"ignore": [
+		".nyc_output",
+		".rpt2_cache",
+		".awcache",
+		".temp",
+		"config",
+		"coverage",
+		"dist",
+		"docs",
+		"gemini",
+		"logs",
+		"node_modules",
+		"reports",
+		"tools",
+		"**/*.js",
+		"**/*.d.ts",
+		"**/*.map"
+	],
+	"watch": [
+		"src"
+	],
+	"delay": 1000,
+	"ext": "js,ts,tsx,less"
+}

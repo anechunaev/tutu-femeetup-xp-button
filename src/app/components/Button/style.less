@@ -1,0 +1,45 @@
+.wrapper {
+	padding: 10px 15px;
+	display: inline-block;
+	border-radius: 5px;
+	cursor: pointer;
+	border: 0;
+	position: relative;
+}
+
+.arrowRight {
+	border-radius: 5px 0 0 5px;
+}
+
+.arrowShape {
+	position: absolute;
+	right: -15px;
+	top: 0;
+	width: 15px;
+	height: 40px;
+}
+
+.one {
+	background: linear-gradient(#f5f5f5, #e0e0e0);
+
+	&:hover {
+		background-image: linear-gradient(#f5f5f5, #efefef);
+	}
+
+	&:active {
+		background-image: linear-gradient(#e0e0e0, #f5f5f5);
+	}
+}
+
+.two {
+	background-image: linear-gradient(#20c5e0, #0a86ff);
+	color: #fff;
+
+	&:hover {
+		background-image: linear-gradient(#2ee2ff, #0a86ff);
+	}
+
+	&:active {
+		background-image: linear-gradient(#0a86ff, #20c5e0);
+	}
+}
